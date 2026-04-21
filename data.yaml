@@ -1,0 +1,81 @@
+train: F:\YOLO数据集1-100\83、超市商品检测数据集\超市商品检测数据集\train\images
+val: F:\YOLO数据集1-100\83、超市商品检测数据集\超市商品检测数据集\val\images
+test:
+
+nc: 295
+names: ['Nescafe Creamy Latte Twin Pack', 'Green Chili', 'Rebisco Choco Crackers', 'Tomatoes', 'Ginger', 'Sliced Garlic', 'Garlic',
+        'Oishi Crispy Patata', 'Oreo Chocolate Creme', 'Nissin Butter Coconut', 'Hansel Chocolate Sandwich', 'Nestea Lemon Tea Drink', 'Rebisco Hansel Crackers', 'Summit Drinking Water',
+        'Delight Duo Active Probiotic Fiber', 'Rebisco Strawberry Crackers', 'Nescafe Original', 'Absolute Pure Distilled Drinking Water', 'Jersey Chocolate Condensed Creamer', 'M Y San Grahams', 'Jolly Mushrooms',
+        'Don Frank Buko Pandan Gulaman Powder', 'YS Quality Nata de Coco Green', 'Doreen Sweetened Condensed Creamer', 'All Natural Seasons Tropical Fruit', 'Daily Quezo', 'Cadbury Dairy Milk Wholenut', 'Pure Foods Chinese Style Luncheon Meat', 'Del Monte Pineapple Tidbits',
+        'Great Buy Mushrooms Pieces And Stems', 'Alaska Evaporada', 'Alaska Condensada', 'Swiss Miss Chocolate Milk Blend', 'Nutri Snack Moby Crunchy Chocolate', 'Apple', 'Granny Goose Tortillos Cheese',
+        'Granny Goose Tortillos Chili', 'Jack n Jill Piattos Cheese', 'Jack n Jill Vcut Spicy Barbeque', 'Jack n Jill Pic A Ultimate Cheddar', 'Jack n Jill Nova Cheddar Flavor', 'Nutri Snack PeeWee Sizzling Bbq', 'Oishi Potato Chips Plain Salted Flavor',
+        'Jack n Jill Piattos Cheese Supersized', 'Lays Stax Sour Cream And Onion', 'Lays Stax Original', 'Pik Nik', 'Pringles Sour Cream and Onion', 'Doritos Nacho Cheese', 'Lays Classic', 'Mountain Dew',
+        'Pepsi', '7UP', 'Mug Root Beer', 'Mirinda Orange Flavor', 'Jack n Jill Chicharon ni Mang Juan', 'Nutri Snack Cheez It Cheese', 'Galinco Chips Delight  Chocolate Chip Cookies',
+        'Bingo Double Choco', 'Nissin Bread Stix', 'Nissin EggNog Cookies', 'Stateline Loaded Chocolate Filled', 'Oishi Pillows Choco Filled Crackers', 'Jack n Jill Dewberry Blueberries n Cream', 'Leslies Clover Chips Cheesier',
+        'Leslies Clover Chips Chili And Cheese', 'Choco Mucho Milk Chocolate', 'Choco Mucho Dark Chocolate', 'Choco Mucho White Chocolate', 'Nestle Koko Krunch All in One', 'Oishi Bread Pan Cheese and Onion', 'Mayora Cal Cheese Cheese Wafer', 'Glico Pocky Strawberry',
+        'Glico Pocky Chocolate', 'Nestle Koko Krunch Chocolate', 'Nestle Gold Corn Flakes', 'Cheez Whiz Original', 'Cdo Funtastyk Chicken Tocino', 'Pampangas Best Tocino Original', 'Del Monte Original Style Tomato Sauce',
+        'Del Monte Sweet Style Sphagetti Sauce', 'Del Monte Italian Style Spaghetti Sauce', 'Datu Puti Vinegar', 'Datu Puti Soy Sauce', 'Jack n Jill Piattos Sour Cream and Onion Supersized', 'Coca Cola Zero Sugar', 'Alaska Classic Sweetened Condensed Filled Milk',
+        'Jack n Jill Piattos Sour Cream and Onion', 'Tang Pineapple', 'Uni Pak Premium Sardines', 'Super Delights Brownie Bites Chocolate', 'Jack n Jill Quake Overload Mocha Butter', 'Doowee Donut White Choco Frost With Milky Cream Flavored', 'Lemon Square Lava Cake Chocolate', 'Lemon Square Lava cake Cream Bavarian',
+        'Doowee Donut Strawberry Dipped Donut With Strawberry Flavored', 'Fudgee Barr Macapuno', 'Oishi Bread Pan White Cheddar Cheese', 'Vitasoy Original', 'Cobra Energy Drink', 'Jack n Jill Piattos Roadhouse Barbecue', 'Coca Cola Original in Can',
+        'Jumpee Chocolate', 'Jack n Jill Nips Peanut', 'Jack n Jill Nips White Chocolate', 'Jack n Jill Hello Chocolate', 'Jack n Jill Cream O Vanilla', 'Choco Mucho Cookie Sandwich White Chocolate', 'Lays Stax Extra Cheese Flavour',
+        'Bear Brand Swak Pack Chocomilk', '555 Tuna Caldereta', '555 Tuna Afritada', 'Del Monte Filipino Style Spaghetti Sauce', 'Lucky Me Pancit Canton Extra Hot Chili', 'Del Monte Creamy and Cheesy Sphagetti Sauce', 'Kopiko Brown Coffee', 'Nestle Milo',
+        'Pringles Saucy BBQ', 'Oishi Kirei Shrimp Flavor', 'Jack n Jill Presto Choco Vanilla', 'Jack n Jill Presto Chocolate', 'Combi Triple Choco', 'Nagaraya Garlic Cracker Nuts', 'Vitamilk Double Choco Shake',
+        'Zesto Big Pineapple', 'Zesto Big Mango', 'Nestle Bear Brand Sterilized Milk', 'Pampangas Best Chicken Longaniza', 'Zesto Big Grapes', 'Selecta Moo Fortified Chocolate', 'Goya Very Berries',
+        'Goya Dark Chocolate', 'Jack n Jill Chippy Barbecue', 'San Marino Chili Corned Tuna', 'C2 Apple Green Tea', 'Coca Cola Sprite', 'Coca Cola Royal', 'Coca Cola Coke Zero', 'Del Monte Mango Juice Drink',
+        'Del Monte Sweetened Pineapple Juice Drink', 'Del Monte Four Seasons', 'Coca Cola Original', 'Goya Choco Spread', 'Lucky Me Go Cup Batchoy', 'Lucky Me Go Cup Bulalo', 'Gatorade Blue Bolt',
+        'Gatorade Fierce Tropical Fruit', 'Gatorade Fierce Grape', 'Ion Supply Drink Pocari Sweat', 'Cdo Meat Loaf', 'Argentina Meat Loaf', 'Cdo Karne Norte Classic', 'Argentina Corned Beef',
+        'C2 Lemon Green Tea', 'Coca Cola Sprite in Can', 'Jinro Peach Soju', 'Jinro Grapefruit Soju', 'Jinro Strawberry Soju', 'Jinro Green Grape Soju', 'Jinro Chamisul Original Soju', 'Selecta Quezo Real',
+        'Selecta Choco Almond Fudge', 'Yakult Probiotics', 'Grapes', 'Bell Pepper', 'Calamansi', 'Lemon', 'Tofu',
+        'Bok Choy', 'Cabbage', 'Orange', 'King Sue Pork Tocino', 'King Sue Chicken Tocino', 'Pampangas Best Smoked Longaniza', 'Pampangas Best Native Longaniza',
+        'Pampangas Best Pampanga Longaniza', 'Pringles Cheesy Cheese', 'Ferrero Rocher', 'Jack n Jill Presto Peanut', 'El Rancho Corned Beef', 'Century Tuna Flakes in Oil', 'San Marino Corned Tuna', 'Zesto Big Apple',
+        'Bear Brand Fortified Powdered Drink Milk', 'Juan Tasty', 'Lucky Me Pancit Canton Chilimansi', 'Lucky Me Pancit Canton Kalamansi', 'Nutri Snack Moby Caramel Puffs', 'Vicente Vidal Queso y Cebolla', 'Hansel Mocha Sandwich',
+        'O Puff Mango Cream Filled Marshmallows', 'Nissin Cup Noodles Spicy Hot Beef', 'Fudgee Barr Vanilla', 'Chips Ahoy Milka', 'Ritter Sport Nocciole Intere', 'Snickers', 'Jack n Jill Cloud 9 Classic',
+        'Mars Caramel Chocolate Bar', 'Galinco Chips Delight Striped Chocolate Cookies', 'Fudgee Barr Chocolate', 'Selecta Strawberry Solo Pack', 'Lucky Me Beef na Beef Noodles', 'Lucky Me Chicken na Chicken Noodles', 'Knorr Liquid Seasoning Original', 'Pedro Domecq Fundador Solera',
+        'Great Taste Supreme Toffee Hazelnut', 'Pineapple', '555 Sardines in Tomato Sauce', 'Hokkaido Mackerel', 'Argentina Giniling', 'Choco Chum Choco', 'Carrot',
+        'Egg', 'Super Golden Bihon', 'Eggplant', 'Oishi Bread Pan Buttered Toast', 'Nissin Cup Noodles Beef', 'Nissin Cup Noodles Seafood', 'Eden Original',
+        'Reno Liver Spread', 'QuesO Cheese', 'OK Cheese', 'Vitasoy Plus Original', 'Magic Chips Cheese Flavored', 'Magic Chips Barbeque Flavored', 'Delfi Knick Knacks Strawberry', 'Jack n Jill Cheesy Knots Milky Cheese Flavored',
+        'Oishi Sponge Chocolate Crunch', 'Jack n Jill Quake Overload White Choco', 'Jack n Jill Cloud 9 Choco Fudge', 'Bingo Orange Cream', 'Pringles Pizza', 'Mini Oreo Original', 'Oishi Bread Pan Toasted Garlic',
+        'EC Crunchy Choco Flakes', 'Galinco Chips Delight Striped Cappuccino Cookies', 'Fibisco The Ultimate Chocolate Chip Cookies', 'Fibisco Choco Mallows', 'Oreo Chocolate Cream', 'Oreo Double Stuff', 'Goya Milk Chocolate',
+        'Goya Almond in Milk Chocolate', 'Jack n Jill Nips Creamy Tiramisu', 'Goya Winter Chill Milk Chocolate', 'Oishi Prawn Crackers Spicy Flavor', 'Jack n Jill Nips Milk Chocolate', 'Jack n Jill Nips Dark Chocolate', 'Jack n Jill Piattos Roast Beef', 'Blue Lychee',
+        'Le Mineral', 'Refresh Mineral Water', 'Zesto Big Orange', 'Del Monte Pineapple Juice With Vitamins ACE', 'Aqua Life Filtration Systems', 'Wilkins Sparkling Water', 'Coca Cola Zero Sugar in Can',
+        'Jack n Jill Roller Coaster Cheddar Cheese Flavored', 'Jack n Jill Mr Chips Nacho Cheese Flavored', 'Jack n Jill Chippy Chili and Cheese', 'Oishi Rinbee Cheese', 'Oishi Potato Fries Cheese', 'Oishi Cracklings Salt and Vinegar', 'Oishi Fishda Fish Kropeck', 'Mayora Beng Beng Chocolate',
+        'Goya Cream White Chocolate', 'StickO Chocolate', 'Yum Yum Strawberry Snack', 'Choco Chum White Choco', 'Oishi Pillows Ube Filled Crackers', 'Snack Pack Choco Crunchies Chocolate', 'Fibisco Hi Ro Chocolate Flavored',
+        'Fudgee Barr Milk Custard', 'Topss Choco', 'Del Monte Potato Crisp Biscuit Original', 'Jack n Jill Dewberry Blueberry Cheesecake', 'Nescafe Creamy White Twin Pack', 'Jersey Sweetened Condensed Creamer', 'Todays Mixed Fruit', 'Nestle All Purpose Cream',
+        'Del monte Fiesta Fruit Cocktail', 'Royal Elbow Macaroni', 'Del Monte Fiilipino Style Spaghetti Sauce', 'Angel All Purpose Creamer', 'Ladys Choice Real Mayonnaise', 'Cadbury Dairy Milk', 'Lotte Pepero Original',
+        'Jalees BBQ Mushroom Chicharon', 'Jalees Garlic Mushroom Chicharon', 'Lotte Pepero Almond', 'Toblerone White Chocolate', 'Goya Take It 4 Fingers', 'Goya Take it Dark Chocolate', 'M-Ms Chocolate', 'Vitamilk Choco Shake',
+        'Del Monte Pineapple Juice Drink Heart Smart']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
